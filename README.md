@@ -1,5 +1,7 @@
-# react-multistep-form-ts
+# react-multistep-form-ts rtl
 
-[Live Preview](https://apps.damirpristav.com/react-multistep-form/)
+Credit to [react multi step form](https://github.com/damirpristav/react-multistep-form) but I used typescript instead of javascript
 
-Same project as [react multi step form](https://github.com/damirpristav/react-multistep-form) but I used typescript instead of javascript
+npm i
+
+npm start
