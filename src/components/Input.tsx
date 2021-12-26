@@ -18,9 +18,9 @@ const Input: FC<InputProps> = ({
   error,
 }) => {
   return (
-    <div className="mb-5">
+    <div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
       <input
-        className={error ? "input is-danger" : "input"}
+        className={error ? "input is-danger" : "pl-2 outline-none border-none"}
         type={type}
         placeholder={placeholder}
         name={name}

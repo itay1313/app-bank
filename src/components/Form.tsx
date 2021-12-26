@@ -147,9 +147,6 @@ const Form: FC = () => {
 
   return (
     <form onSubmit={submitHandler}>
-      <h1 className="is-size-2 has-text-centered mb-4">
-        אנא השלימו את הפרטים הבאים
-      </h1>
       {step === 1 && (
         <Step
           data={formData.stepOne}
